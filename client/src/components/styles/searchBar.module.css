@@ -1,0 +1,44 @@
+.ctn{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin:5px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid rgb(197, 197, 197);
+}
+.name{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.input{
+   
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.btn{
+    margin: 5px;
+    padding: 5px;
+    border:2px solid white;
+    border-radius: 5px;
+    color:white;
+    background-color: #db0303;
+    
+}
+.btn:hover{
+    border:2px solid #db0303;
+    
+    color: #db0303;
+    background-color: transparent;
+}
+@media all and (max-width:400px){
+    .ctn{
+        flex-direction: column;
+    }
+}

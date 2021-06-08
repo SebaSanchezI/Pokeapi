@@ -1,0 +1,147 @@
+.ctn{
+    width: 100%;
+    height: auto;
+    margin:2%;
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    width: 50%;
+    height: 40%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.cardData{
+    
+    display: flex;
+    
+}
+.divImg{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.data{
+    flex: 2 1 auto;
+    flex-direction: column;
+}
+.name{
+    border: 1px solid black;
+    background-color: #db0303;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+    margin:5px;
+    padding: 5px;
+}
+.id{
+    border: 1px solid black;
+    background-color: #1547b4;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size:small;
+    margin:5px;
+    padding: 5px;
+}
+.details{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.abilities{
+    width: 100%;
+    margin:5px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abiData{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.abiDataLife{
+    margin:2px;
+    padding: 2px;
+    background-color: rgb(209, 206, 206);
+    display: flex;
+    justify-content:space-between;
+    text-align: right;
+}
+.abiDataAttack{
+    margin:2px;
+    padding: 2px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.abiDataDefense{
+    margin:2px;
+    padding: 2px;
+    background-color: rgb(209, 206, 206);
+    display: flex;
+    justify-content:space-between;
+}
+.abiDataSpeed{
+    margin:2px;
+    padding: 2px;
+    display: flex;
+    justify-content:space-between;
+}
+.abiDataHeight{
+    margin:2px;
+    padding: 2px;
+    background-color: rgb(209, 206, 206);
+    display: flex;
+    justify-content:space-between;
+}
+.abiDataWeight{
+    margin:2px;
+    padding: 2px;
+    display: flex;
+    justify-content:space-between;
+}
+.abiDataTypes{
+    margin:2px;
+    padding: 2px;
+    background-color: rgb(209, 206, 206);
+    display: flex;
+    justify-content:space-between;
+}
+.text{
+    text-align: right;
+    
+}
+@media all and (max-width:800px){
+    .details, .abiDataLife, .abiDataAttack,.abiDataDefense,
+    .abiDataSpeed, .abiDataHeight,.abiDataWeight,.abiDataTypes{
+        flex-direction: column;
+    }
+    .abilities{
+        width: 100%;
+        margin:auto;
+        padding: auto;
+    }
+    .divImg img{
+        width:auto;
+        height:auto;
+    }
+}

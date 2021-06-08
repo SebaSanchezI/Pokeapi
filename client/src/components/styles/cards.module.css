@@ -1,0 +1,12 @@
+
+.ctn{
+        width: 100%;
+        padding: 5px;
+        background-color: #fff;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-between;
+
+}

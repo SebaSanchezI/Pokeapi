@@ -1,0 +1,7 @@
+CORREGIR
+-refacorizar controller>>hacer funcion para no repetir codigo
+-filtro > que el estado simpre vuelva al inicial antes de hacer el filtro
+-busqueda > cuando se borre el input box debe setear el estado inicial con todos los pokes
+-paginacion >> este de un color distinto el numero de la pagina en que esta
+
+INFORMAR CUANDO NO SE ENCUENTRA ALGO EN LA BASE
