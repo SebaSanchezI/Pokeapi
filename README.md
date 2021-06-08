@@ -47,3 +47,7 @@
 </ol>
 
 
+<!--## DEPLOY DE APP
+
+Para probar la version deployada hace clic en este <a href='https://pokeapi-web-app.herokuapp.com/'>link</a>
+
